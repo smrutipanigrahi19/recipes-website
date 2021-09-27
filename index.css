@@ -1,5 +1,5 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap"); */
-* {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100&display=swap");
+html {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
@@ -31,7 +31,6 @@ body {
   z-index: 1;
   margin-top: 60px;
   font-size: 2rem;
-  font-family: ;
 }
 .paragraph {
   padding: 40px;
@@ -94,6 +93,175 @@ body {
   color: black;
   display: flex;
 }
+.container3 {
+  background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/e2f38b67aa6e56639487cb0f/ed-min.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.blank_div {
+  flex: 0.5;
+}
+
+.main {
+  padding: 40px;
+  flex: 0.5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.box-contain {
+  padding: 60px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 20px;
+}
+.box-contain p {
+  font-size: 1rem;
+}
+.container4 {
+  font-family: "Poppins", sans-serif;
+  background-size: cover;
+  display: flex;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+.img1 {
+  background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/1a2b51f955095ac4927b66b5/pexels-photo-4099237.jpeg");
+  background-size: cover;
+  height: 410px;
+  width: 400px;
+}
+.describe1 {
+  color: #111111;
+  height: 400px;
+  width: 400px;
+
+  margin-left: 20px;
+}
+.head4 {
+  display: flex;
+  font-size: 15px;
+  letter-spacing: 4px;
+  text-align: center;
+  flex-direction: column;
+}
+.bold {
+  font-family: "Playfair Display", serif !important;
+  font-size: 1.5rem;
+  margin: 20px 0 0;
+  font-weight: 700;
+  padding-left: 30px;
+}
+.border1 {
+  border-bottom: 2px solid black;
+  width: 26%;
+  text-align: center;
+  margin-left: 120px;
+}
+.img2 {
+  background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/62c4998046a15404b6087759/pexels-marta-dzedyshko-2067396.jpg");
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+}
+.describe2 {
+  margin-bottom: 40px;
+  color: black;
+  height: 410px;
+  width: 350px;
+}
+.box {
+  min-width: 400px;
+}
+.bold2 {
+  font-family: "Playfair Display", serif !important;
+  font-size: 1.5rem;
+  margin: 20px 0 0;
+  font-weight: 700;
+}
+.head5 {
+  display: flex;
+  font-size: 15px;
+  letter-spacing: 4px;
+  text-align: center;
+  flex-direction: column;
+  padding-right: 25px;
+}
+.border4 {
+  border-bottom: 2px solid black;
+  width: 26%;
+  text-align: center;
+  margin-left: 120px;
+}
+.img3 {
+  background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/1d2b8399c28556d891209d24/pexels-photo-949069.jpeg");
+  background-size: cover;
+  height: 400px;
+  width: 415px;
+}
+.describe3 {
+  margin-left: 35px;
+  margin-bottom: 40px;
+  color: black;
+  height: 410px;
+  width: 350px;
+}
+.head3 {
+  display: flex;
+  font-size: 15px;
+  letter-spacing: 4px;
+  text-align: center;
+  flex-direction: column;
+}
+.bold3 {
+  font-family: "Playfair Display", serif !important;
+  font-size: 1.5rem;
+  margin: 20px 0 0;
+  font-weight: 700;
+}
+.border3 {
+  border-bottom: 2px solid black;
+  width: 26%;
+  text-align: center;
+  margin-left: 120px;
+}
+.container5 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: black;
+  background-color: #f2f2f2;
+}
+.first-container5 {
+  height: 700px;
+  width: 500px;
+  padding-top: 700px;
+  margin-left: 150px;
+}
+.paragraph5 {
+  word-wrap: break-word;
+}
+.border5 {
+  border-bottom: 2px solid black;
+  align-items: center;
+  width: 20%;
+}
+.img5 {
+  background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/86ef7f7fd2c954e0a3666806/pexels-photo-5591663.jpeg");
+  background-size: cover;
+  height: 600px;
+  width: 600px;
+  margin-top: 450px;
+}
 
 @media (max-width: 600px) {
   .heading {
@@ -105,6 +273,16 @@ body {
   }
   .chef {
     font-size: 1.7rem;
+  }
+  .blank_div {
+    display: none;
+  }
+  .main {
+    flex: 1;
+    gap: 20px;
+  }
+  .box-contain {
+    padding: 20px 10px;
   }
 }
 @media (min-width: 601px) and(max-width:1000px) {
